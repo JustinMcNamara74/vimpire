@@ -287,6 +287,9 @@ nnoremap <silent> <F9> :set list!<CR>
 " F10 to Toggle highlighting the current line and column.
 nnoremap <silent> <F10> :set cursorline!<CR>:set cursorcolumn!<CR>
 
+" vim-json settings
+let g:vim_json_syntax_conceal = 0
+
 " GitGutter Settings
 let g:gitgutter_map_keys = 0
 
