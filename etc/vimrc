@@ -41,7 +41,7 @@ set virtualedit=onemore
 set history=1000
 
 " configure wildignore
-set wildignore+=*/tmp/*,*.so,*.gz,*.swp,*.bak,*.pyc,*.class
+set wildignore+=*/tmp/*,*.so,*.gz,*.swp,*.bak,*.pyc,*.class,*/bower_components/*,*/node_modules/*
 
 " when we turn on set list, we want to see these types of whitespace:
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<

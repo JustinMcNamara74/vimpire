@@ -12,6 +12,7 @@ Plug 'vim-perl/vim-perl'
 Plug 'elixir-lang/vim-elixir'
 Plug 'fatih/vim-go'
 Plug 'moll/vim-node'
+Plug 'jcfaria/Vim-R-plugin'
 
 " ruby on rails
 Plug 'thoughtbot/vim-rspec'
