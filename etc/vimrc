@@ -183,6 +183,15 @@ nmap <silent> <leader>ea <Plug>(EasyAlign)
 " open this file's directory using netrw in a split.
 nnoremap <silent> <C-n> :vsplit<CR><C-W><C-W>:edit %:p:h<CR>
 
+" easymotion settings
+let g:EasyMotion_do_mapping = 0
+let g:EasyMotion_smartcase = 1
+
+" easy motion bindings
+map <leader>j <Plug>(easymotion-j)
+map <leader>J <Plug>(easymotion-s)
+map <leader>k <Plug>(easymotion-k)
+
 " Incremental search settings
 let g:incsearch#auto_nohlsearch = 1
 let g:incsearch#consistent_n_direction = 1
