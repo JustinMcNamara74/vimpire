@@ -257,6 +257,10 @@ nnoremap <silent> <leader>w :write<CR>
 nnoremap <silent> <leader>W :SudoWrite<CR>
 
 " shortcuts for moving around split windows
+if has('nvim')
+  nnoremap <BS> <C-w>h
+endif
+
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
