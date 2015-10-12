@@ -90,6 +90,7 @@ augroup file_specific_settings
   autocmd!
   autocmd FileType markdown setlocal spell
   autocmd FileType gitcommit setlocal spell
+  autocmd BufRead,BufNewFile *.jbuilder setfiletype ruby
 augroup END
 
 " disable automatic commenting
