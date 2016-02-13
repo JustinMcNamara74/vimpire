@@ -199,15 +199,15 @@ let g:incsearch#consistent_n_direction = 1
 let g:incsearch#magic = '\v'
 
 " Incremental search mappings
-map /  <Plug>(incsearch-forward)
-map ?  <Plug>(incsearch-backward)
-map g/ <Plug>(incsearch-stay)
-map n  <Plug>(incsearch-nohl-n)zz
-map N  <Plug>(incsearch-nohl-N)zz
-map *  <Plug>(incsearch-nohl-*)
-map #  <Plug>(incsearch-nohl-#)
-map g* <Plug>(incsearch-nohl-g*)
-map g# <Plug>(incsearch-nohl-g#)
+" map /  <Plug>(incsearch-forward)
+" map ?  <Plug>(incsearch-backward)
+" map g/ <Plug>(incsearch-stay)
+" map n  <Plug>(incsearch-nohl-n)zz
+" map N  <Plug>(incsearch-nohl-N)zz
+" map *  <Plug>(incsearch-nohl-*)
+" map #  <Plug>(incsearch-nohl-#)
+" map g* <Plug>(incsearch-nohl-g*)
+" map g# <Plug>(incsearch-nohl-g#)
 
 " set up quick searching ag/ack
 if executable('ag')
@@ -221,7 +221,7 @@ if executable('ag')
 
   " settings
   nnoremap <leader>a :Ag!<space>
-  let g:aghighlight=1
+  let g:ag_highlight=1
 
 elseif executable('ack')
   " use ack instead of grep

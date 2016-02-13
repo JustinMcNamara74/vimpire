@@ -6,13 +6,15 @@ Plug 'tpope/vim-projectionist'
 Plug 'tomtom/tlib_vim'
 
 " language plugins
-Plug 'rodjek/vim-puppet'
-Plug 'tpope/vim-markdown'
-Plug 'vim-perl/vim-perl'
-Plug 'elixir-lang/vim-elixir'
-Plug 'fatih/vim-go'
+Plug 'rodjek/vim-puppet',        { 'for': 'puppet' }
+Plug 'tpope/vim-markdown',       { 'for': 'markdown' }
+Plug 'vim-perl/vim-perl',        { 'for': 'perl' }
+Plug 'fatih/vim-go',             { 'for': 'go' }
+Plug 'elixir-lang/vim-elixir',   { 'for': 'elixir' }
+Plug 'jcfaria/Vim-R-plugin',     { 'for': 'R' }
+Plug 'tpope/vim-haml',           { 'for': 'haml' }
+Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'moll/vim-node'
-Plug 'jcfaria/Vim-R-plugin'
 
 " ruby on rails
 Plug 'thoughtbot/vim-rspec'
@@ -25,10 +27,8 @@ Plug 'tpope/vim-rake'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'elzr/vim-json'
-Plug 'kchmck/vim-coffee-script'
 Plug 'burnettk/vim-angular'
 Plug 'othree/html5.vim'
-Plug 'tpope/vim-haml'
 
 " user text objects
 Plug 'kana/vim-textobj-user'
@@ -38,18 +38,19 @@ Plug 'nelstrom/vim-textobj-rubyblock'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'scrooloose/syntastic'
 Plug 'Lokaltog/vim-easymotion'
-Plug 'airblade/vim-gitgutter'
+Plug 'mhinz/vim-signify'
 Plug 'bling/vim-airline'
 Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Raimondi/delimitMate'
-Plug 'majutsushi/tagbar'
 Plug 'junegunn/vim-easy-align'
-Plug 'haya14busa/incsearch.vim'
-Plug 'terryma/vim-expand-region'
-Plug 'mtth/scratch.vim'
-Plug 'terryma/vim-multiple-cursors'
+" Plug 'airblade/vim-gitgutter'
+" Plug 'majutsushi/tagbar'
+" Plug 'haya14busa/incsearch.vim'
+" Plug 'terryma/vim-expand-region'
+" Plug 'mtth/scratch.vim'
+" Plug 'terryma/vim-multiple-cursors'
 
 " tpope
 Plug 'tpope/vim-commentary'
